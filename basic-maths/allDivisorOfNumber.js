@@ -19,6 +19,7 @@ const allDivisorsOfNumber = (number) => {
     }
   }
   console.log(array.sort((a, b) => a - b).toString());
+  return array.sort((a, b) => a - b).toString();
 };
 
 allDivisorsOfNumber(36);
